@@ -1,5 +1,6 @@
 {
   "name": "angular-form-builder",
+  "description": "Demo NPM example is here https://www.npmjs.com/package/example-npm-module",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "npm:form-builder": "ng build --prod hmcts-form-builder"
+    "npm:form-builder": "ng build --prod hmcts-form-builder",
+    "npm:publish": " npm publish dist/example-npm-module"
   },
   "private": true,
   "dependencies": {

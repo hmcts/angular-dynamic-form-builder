@@ -2,26 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
-## Development server
+## Angular 6 Structure
+We used Angular 6 CLI to generate an modular lib
+``` 
+ng lib hmcts-form-builder
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+We have updated package.json file scripts to allow us speed the process to generate module and publish it to NPM.
 
-## Code scaffolding
+##Step to publish
+1. To generate/update the module you need to run ``npm run npm:form-builder``
+2. Login into the corporate NPM package
+3. Publish the NPM using ``npm run npm:publish``
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

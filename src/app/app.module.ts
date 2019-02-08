@@ -1,8 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { HmctsFormBuilderModule } from '../../projects/hmcts-form-builder/src/lib/hmcts-form-builder.module';
+import {AppComponent} from './app.component';
+import {HmctsFormBuilderModule} from '../../projects/hmcts-form-builder/src/lib/hmcts-form-builder.module';
 import {RouterModule} from '@angular/router';
 
 @NgModule({
@@ -27,4 +27,5 @@ import {RouterModule} from '@angular/router';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
