@@ -4,6 +4,7 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {HmctsFormBuilderModule} from '../../projects/hmcts-form-builder/src/lib/hmcts-form-builder.module';
 import {RouterModule} from '@angular/router';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -11,6 +12,7 @@ import {RouterModule} from '@angular/router';
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     HmctsFormBuilderModule,
     RouterModule.forRoot([
       {
@@ -21,6 +23,14 @@ import {RouterModule} from '@angular/router';
         path: '',
         redirectTo: '/example',
         pathMatch: 'full'
+      },
+      {
+        path: 'register', // TODO: find hardcoded path
+        component: AppComponent
+      },
+      {
+        path: 'register/:id', // TODO: find hardcoded path
+        component: AppComponent
       }
     ])
   ],

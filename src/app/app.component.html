@@ -1,2 +1,6 @@
-<hmcts-hmcts-form-builder></hmcts-hmcts-form-builder>
-
+<app-form-builder
+  [pageItems]="pageItems"
+  [pageValues]="pageValues"
+  [isPageValid]="isPageValid"
+  (submitPage)="onContinue($event)" >
+</app-form-builder>
