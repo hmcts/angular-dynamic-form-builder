@@ -20,6 +20,7 @@ import {ValidationErrorFormControlComponent} from './components/validation-error
 import {ValidationErrorFormGroupComponent} from './components/validation-error-formgroup/validation-error-formgroup.component';
 import {FormsService} from './services/form-builder.service';
 import {ValidationService} from './services/form-builder-validation.service';
+import {RouterModule} from '@angular/router';
 
 
 const COMPONENTS = [
@@ -54,6 +55,7 @@ const SERVICES = [
   imports: [
     CommonModule,
     FormsModule,
+    RouterModule,
     ReactiveFormsModule
   ],
   declarations: [...COMPONENTS],
