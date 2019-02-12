@@ -34,8 +34,6 @@ example.
   [isPageValid]="isPageValid"
   (submitPage)="onContinue($event)" >
 </app-form-builder>
-<<<<<<< HEAD
-=======
 ```
 
 ## Form Builder Inputs & Interface
@@ -104,14 +102,12 @@ This is the user form input data.
 ---...module.ts
 ---...routing.ts
 --public_api.ts
->>>>>>> Updated readme file
 ```
 ### How to extend form builder
 Create components, services, directives under the hmcts-form-builder module. 
 Once a component is created, you need to add in the module.ts `declartions` and `exports`
 and for it to be exported and used in other apps you need also export in `public_api.ts`.
 
-<<<<<<< HEAD
 ## Form Builder Inputs & Interface
 ``pageValues: Array<any>``
 PageValues is the meta data. Here is an example of  meta:
@@ -168,7 +164,7 @@ PageValues is the meta data. Here is an example of  meta:
 PageItems as default is empty, as form should not be pre-filled.
 This is the user form input data.
 
-### File structure
+### File structureg
 -projects/hmcts-form-builder
 --src
 ---lib
@@ -186,11 +182,6 @@ and for it to be exported and used in other apps you need also export in `public
 ### Form builder code coverage
 Current coverage is same and migrate from the apps. They need to be fixed and improved.
 
-=======
-### Form builder code coverage
-Current coverage is same and migrate from the apps. They need to be fixed and improved.
-
->>>>>>> Updated readme file
 ### Step to publish to NPM
 0. For now manually you can update the package.json version in ``projects/hmcts-form-builder/package.json``
 1. To generate/update the module you need to run ``npm run npm:form-builder``
