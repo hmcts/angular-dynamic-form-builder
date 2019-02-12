@@ -1,7 +1,7 @@
 {
   "name": "angular-form-builder",
   "description": "Demo NPM example is here https://www.npmjs.com/package/example-npm-module",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve  --port=3000",
