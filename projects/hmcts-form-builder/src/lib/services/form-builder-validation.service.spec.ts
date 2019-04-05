@@ -189,7 +189,6 @@ describe('ValidationService', () => {
     }];
 
     const createFormGroupValidators = service.createFormGroupValidators(formGroup, formGroupValidators);
-    console.log(createFormGroupValidators);
     expect(createFormGroupValidators[0]).toEqual(jasmine.any(Function));
   }));
   it('should check if date group validator returns a validation function', inject([ValidationService], (service: ValidationService) => {

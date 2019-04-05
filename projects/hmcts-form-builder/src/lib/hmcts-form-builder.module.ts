@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {CommonModule, DatePipe} from '@angular/common';
 import {HmctsFormBuilderComponent} from './hmcts-form-builder.component';
-import {FromBuilderComponent} from './components/form-builder/from-builder.component';
+import {FormBuilderComponent} from './components/form-builder/form-builder.component';
 import {FieldsetComponent} from './components/fieldset/fieldset.component';
 import {JuiFormElementsComponent} from './components/jui-form-elements/jui-form-elements.component';
 import {LegendComponent} from './components/legend/legend.component';
@@ -20,14 +20,12 @@ import {ValidationErrorFormControlComponent} from './components/validation-error
 import {ValidationErrorFormGroupComponent} from './components/validation-error-formgroup/validation-error-formgroup.component';
 import {FormsService} from './services/form-builder.service';
 import {ValidationService} from './services/form-builder-validation.service';
-import {RouterModule} from '@angular/router';
 
 
 const COMPONENTS = [
-  FromBuilderComponent,
+  FormBuilderComponent,
   FieldsetComponent,
   ValidationErrorFormGroupComponent,
-  FromBuilderComponent,
   FieldsetComponent,
   JuiFormElementsComponent,
   LegendComponent,
@@ -55,7 +53,6 @@ const SERVICES = [
   imports: [
     CommonModule,
     FormsModule,
-    RouterModule,
     ReactiveFormsModule
   ],
   declarations: [...COMPONENTS],

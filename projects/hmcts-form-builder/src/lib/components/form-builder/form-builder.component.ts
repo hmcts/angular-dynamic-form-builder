@@ -14,7 +14,7 @@ import {ValidationService} from '../../services/form-builder-validation.service'
   templateUrl: './form-builder.component.html'
 })
 
-export class FromBuilderComponent implements OnChanges {
+export class FormBuilderComponent implements OnChanges {
 
   constructor(
     private formsService: FormsService,
