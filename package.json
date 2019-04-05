@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "npm:form-builder": "ng build --prod hmcts-form-builder",
-    "npm:publish": " npm publish dist/example-npm-module"
+    "npm:publish": " npm publish dist/hmcts-form-builder"
   },
   "private": true,
   "dependencies": {

@@ -18,4 +18,4 @@ deploy:
     secure: KEY-NEEDED
   on:
     tags: true
-    repo: @hmcts/angular-form-builder
+    repo: @hmcts/hmcts-form-builders
